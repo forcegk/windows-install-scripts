@@ -1,0 +1,18 @@
+<Configuration>
+<Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="ProPlus2021Volume">
+      <Language ID="es-ES" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+    <Product ID="ProjectPro2021Volume">
+      <Language ID="es-ES" />
+      <ExcludeApp ID="OneDrive" />
+    </Product>
+</Add>
+<Display Level="Full" AcceptEULA="TRUE" />
+<Updates Enabled="TRUE" Channel="PerpetualVL2021" />
+</Configuration>
