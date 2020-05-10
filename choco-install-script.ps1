@@ -28,3 +28,4 @@ choco install -y gimp
 choco install -y qbittorrent
 choco install -y ffmpeg
 choco install -y obs-studio
+choco install -y inkscape
