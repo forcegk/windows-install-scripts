@@ -29,3 +29,5 @@ choco install -y qbittorrent
 choco install -y ffmpeg
 choco install -y obs-studio
 choco install -y inkscape
+choco install -y audacity
+choco install -y cpu-z
