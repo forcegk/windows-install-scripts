@@ -31,3 +31,5 @@ choco install -y obs-studio
 choco install -y inkscape
 choco install -y audacity
 choco install -y cpu-z
+choco install -y kdenlive
+choco install -y krita
