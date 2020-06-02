@@ -33,3 +33,4 @@ choco install -y audacity
 choco install -y cpu-z
 choco install -y kdenlive
 choco install -y krita
+choco install -y firefox
