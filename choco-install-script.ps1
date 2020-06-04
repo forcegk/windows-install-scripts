@@ -14,6 +14,7 @@ choco install -y origin --ignore-checksums
 choco install -y epicgameslauncher
 choco install -y goggalaxy
 choco install -y twitch --ignore-checksums
+choco install -y uplay
 choco install -y irfanview irfanviewplugins
 choco install -y junction-link-magic
 choco install -y barrier
