@@ -37,3 +37,6 @@ choco install -y krita
 choco install -y firefox
 choco install -y axel
 choco install -y rclone
+choco install -y librecad
+choco install -y crystaldiskmark
+choco install -y crystaldiskinfo
