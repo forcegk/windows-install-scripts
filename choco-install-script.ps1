@@ -9,6 +9,7 @@ choco install -y notepadplusplus
 choco install -y mpc-hc-clsid2
 choco install -y zulu11
 choco install -y telegram
+choco install -y whatsapp
 choco install -y steam
 choco install -y origin --ignore-checksums
 choco install -y epicgameslauncher
@@ -40,3 +41,4 @@ choco install -y rclone
 choco install -y librecad
 choco install -y crystaldiskmark
 choco install -y crystaldiskinfo
+choco install -y hxd
