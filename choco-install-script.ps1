@@ -42,3 +42,6 @@ choco install -y librecad
 choco install -y crystaldiskmark
 choco install -y crystaldiskinfo
 choco install -y hxd
+choco install -y shmnview
+choco install -y python
+choco install -y shmnview
