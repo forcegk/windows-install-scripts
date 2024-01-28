@@ -14,3 +14,6 @@ sudo reg import $home\scoop\apps\notepadplusplus\current\install-context.reg
 
 ## python
 sudo reg import $home\scoop\apps\python\current\install-pep-514.reg
+
+## winbtrfs
+sudo reg import .\configs\winbtrfs\secureboot.reg
