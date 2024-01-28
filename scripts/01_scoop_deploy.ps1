@@ -1,7 +1,10 @@
 # Install scoop
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-irm get.scoop.sh | iex
+if (Get-Command "scoop" -ErrorAction SilentlyContinue) 
+{ 
+   irm get.scoop.sh | iex
+}
 scoop install gsudo 7zip git
+
 
 # Add buckets
 scoop bucket add extras
