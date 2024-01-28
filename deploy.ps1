@@ -3,7 +3,7 @@ $scr = ".\scripts"
 powershell -c "$scr\01_scoop_deploy.ps1"
 
 # Refresh profile to load sudo
-. $profile
+#. $profile
 
 sudo powershell -c "$scr\02_scoop_deploy_admin.ps1" + `
                    "; $scr\03_choco_deploy_admin.ps1" + `
