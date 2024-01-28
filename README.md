@@ -2,6 +2,11 @@
 Scripts for installing common apps on Windows via `scoop` and `choco` package managers.
 
 ## Usage
+First allow scripts to be executed in a non elevated powershell:
+```powershell
+Set-ExecutionPolicy Bypass -Scope CurrentUser
+```
+
 For installing common apps and default configurations, just open `deploy.ps1` in a user (non elevated) powershell, being its working directory the root of this repo.
 ```bash
 X:\your\path\windows-install-scripts> .\deploy.ps1
