@@ -1,5 +1,5 @@
 # Install scoop
-if (Get-Command "scoop" -ErrorAction SilentlyContinue) 
+if ((Get-Command "scoop" -ErrorAction SilentlyContinue) -eq $null)
 { 
    irm get.scoop.sh | iex
 }
