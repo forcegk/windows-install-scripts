@@ -23,7 +23,8 @@ scoop install aria-ng-gui aria2
 
 # Install apps
 ## Misc / core
-scoop install figlet grep less micro miller nano sed sort-uniq-wc vim winfetch curl ffmpeg posh-git rclone wget yt-dlp autoruns sync lwc shmnview
+scoop install figlet grep less micro miller nano sed vim winfetch curl ffmpeg posh-git rclone wget yt-dlp autoruns sync lwc shmnview
+# borrado sort-uniq-wc porque da error
 
 ## Java
 scoop install zulu-jdk
