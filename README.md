@@ -39,6 +39,12 @@ It uncompresses the Office Lite Installer with previously installed 7z, and runs
 | ProPlusPerpetual_2021_64_W_Ex_PP_Pub_Proj.xml          | ✅   |  ✅  |   ❌   |     ✅     |    ✅    |   ✅    |
 | ProPlusPerpetual_2021_64_W_Ex_Outl_PP_Pub_Proj.xml     | ✅   |  ✅  |   ✅   |     ✅     |    ✅    |   ✅    |
 
+### bindfta.ps1
+This script sets MPC-HC as the default video player, IrfanView as the image viewer, and 7-zip as compressed file extractor/archiver.
+The syntax is quite self explanatory, and there is also a not-universally-tested `_thorium` file that sets Thorium Browser as the default browser.
+
+In case of any extension unbinding, the script is idempotent, so you can execute it again with no side effects.
+
 ## License
 Any Pull Requests are more than welcome. Remember that the GPLv2 License requires making the derived source code also available with the same licensing terms.
 <p align="center"><a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank"><img src="https://raw.githubusercontent.com/forcegk/windows-install-scripts/master/misc/gplv2_badge.svg" width="35%"></a></p>
