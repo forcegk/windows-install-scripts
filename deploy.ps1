@@ -6,15 +6,13 @@ function refresh-path {
                 [System.Environment]::GetEnvironmentVariable("Path","User")
 }
 
+powershell -c "$scr\01_scoop_deploy.ps1"
+
 # Set chocolatey path (for later)
 if (-Not ($Env:Path -split ";" -contains "C:\ProgramData\chocolatey\bin"))
 {
-   Start-Process powershell -Verb runAs -ArgumentList "-NoProfile -Command `"setx PATH `"$env:path;C:\ProgramData\chocolatey\bin`" -m`""
-   refresh-path
+   setx PATH "$env:path;C:\ProgramData\chocolatey\bin" -m
 }
-
-powershell -c "$scr\01_scoop_deploy.ps1"
-
 refresh-path
 
 sudo powershell -c "$scr\02_scoop_deploy_admin.ps1" + `
