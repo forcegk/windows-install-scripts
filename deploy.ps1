@@ -9,7 +9,7 @@ function refresh-path {
 # Set chocolatey path (for later)
 if (-Not ($Env:Path -split ";" -contains "C:\ProgramData\chocolatey\bin"))
 {
-   setx PATH "$env:path;C:\ProgramData\chocolatey\bin" -m
+   Start-Process powershell -Verb runAs -ArgumentList "-NoProfile -Command `"setx PATH `"$env:path;C:\ProgramData\chocolatey\bin`" -m`""
    refresh-path
 }
 
