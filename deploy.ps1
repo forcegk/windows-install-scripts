@@ -8,6 +8,7 @@ function refresh-path {
 
 powershell -c "$scr\01_scoop_deploy.ps1"
 
+refresh-path
 # Set chocolatey path (for later)
 if (-Not ($Env:Path -split ";" -contains "C:\ProgramData\chocolatey\bin"))
 {
