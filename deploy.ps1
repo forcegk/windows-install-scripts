@@ -11,7 +11,7 @@ powershell -c "$scr\01_scoop_deploy.ps1"
 # Set chocolatey path (for later)
 if (-Not ($Env:Path -split ";" -contains "C:\ProgramData\chocolatey\bin"))
 {
-   setx PATH "$env:path;C:\ProgramData\chocolatey\bin" -m
+   sudo setx PATH "$env:path;C:\ProgramData\chocolatey\bin" -m
 }
 refresh-path
 
