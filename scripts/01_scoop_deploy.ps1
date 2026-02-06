@@ -3,7 +3,7 @@ if ((Get-Command "scoop" -ErrorAction SilentlyContinue) -eq $null)
 {
    irm get.scoop.sh | iex
 }
-scoop install gsudo 7zip git
+scoop install 7zip git
 
 
 # Add buckets
@@ -23,7 +23,7 @@ scoop install aria-ng-gui aria2
 
 # Install apps
 ## Misc / core
-scoop install figlet grep less micro miller nano sed vim winfetch curl ffmpeg posh-git rclone wget yt-dlp autoruns sync lwc shmnview
+scoop install figlet grep less micro miller nano sed vim fastfetch curl ffmpeg posh-git rclone wget yt-dlp autoruns sync lwc shmnview xz
 # borrado sort-uniq-wc porque da error
 
 ## Java
